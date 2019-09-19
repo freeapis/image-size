@@ -1,7 +1,6 @@
 package net.freeapis.core;
 
-import static org.junit.Assert.assertTrue;
-
+import org.apache.commons.lang3.tuple.Pair;
 import org.junit.Test;
 
 import java.io.File;
@@ -17,6 +16,10 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue() throws Exception
     {
-        System.out.println(Image.sizeOf(new File(ClassLoader.getSystemResource("source.jpg").getFile())));
+        Pair<Integer,Integer> size = Image
+                .sizeOf(new File(ClassLoader.getSystemResource("source.jpg").getFile()));
+        System.out.println("width:" + size.getLeft() + " height:" + size.getRight());
+
+        System.out.println(Image.sizeOf(new File("D:\\GraphicsMagic\\doc-convert\\bug.jpg")));
     }
 }
