@@ -1,23 +1,24 @@
-# Compiled class file
-*.class
+##以斜杠“/”开头表示目录；
+##以星号“*”通配多个字符；
+##以问号“?”通配单个字符
+##以方括号“[]”包含单个字符的匹配列表；
+##以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+##此外，git 对于 .ignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效；
 
-# Log file
+/target/
+/.settings/
+/.metadata/
+.project
+.classpath
+/Servers
+/.recommenders
+/RemoteSystemsTempFiles
+/apache-tomcat-7.0.56
+*.iml
+/.idea
+/artifacts
+/libraries
+/copyright
+/*logs
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+.DS_Store
