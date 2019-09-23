@@ -4,7 +4,7 @@ get the image size without load the entire image to memory.the implemetation of 
 ## installation
 ##### build from source code
 ```
-git clone https://github.com/wq409813230/image-size.git
+git clone https://github.com/NorthEndCodeBase/image-size.git
 cd image-size
 mvn clean install
 ```
