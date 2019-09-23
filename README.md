@@ -11,7 +11,7 @@ mvn clean install
 ##### add package form repository
 ```
 <dependency>
-    <groupId>net.freeapis.core</groupId>
+    <groupId>com.github.northend</groupId>
     <artifactId>image-size</artifactId>
     <version>1.0</version>
 </dependency>
