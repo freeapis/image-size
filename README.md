@@ -4,14 +4,14 @@ get the image size without load the entire image to memory.the java implemetatio
 ## installation
 ##### build from source code
 ```
-git clone https://github.com/NorthEndCodeBase/image-size.git
+git clone https://github.com/freeapis/image-size.git
 cd image-size
 mvn clean install
 ```
 ##### add package form repository
 ```
 <dependency>
-    <groupId>com.github.northend</groupId>
+    <groupId>com.github.freeapis</groupId>
     <artifactId>image-size</artifactId>
     <version>1.0</version>
 </dependency>
