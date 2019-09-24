@@ -1,5 +1,5 @@
 # image-size
-get the image size without load the entire image to memory.the implemetation of project https://github.com/image-size/image-size
+get the image size without load the entire image to memory.the java implemetation of project https://github.com/image-size/image-size
 
 ## installation
 ##### build from source code
